@@ -19,7 +19,7 @@ type Message struct {
 }
 
 type Response struct {
-	MulticastID  int64       `json:"multicast_id"`
+	MulticastID  int64     `json:"multicast_id"`
 	Success      int       `json:"success"`
 	Failure      int       `json:"failure"`
 	CanonicalIDs int       `json:"canonical_ids"`
@@ -27,8 +27,8 @@ type Response struct {
 }
 
 type Result struct {
-	MessageID      int64    `json:"message_id"`
-	RegistrationID int64    `json:"registration_id"`
+	MessageID      int64  `json:"message_id"`
+	RegistrationID int64  `json:"registration_id"`
 	Error          string `json:"error"`
 }
 
