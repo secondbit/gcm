@@ -15,7 +15,7 @@ type Message struct {
 	CollapseKey     string                 `json:"collapse_key,omitempty"`
 	Data            map[string]interface{} `json:"data,omitempty"`
 	DelayWhileIdle  bool                   `json:"delay_while_idle,omitempty"`
-	TimeToLive      int                    `json:"time_to_live",omitempty`
+	TimeToLive      int                    `json:"time_to_live,omitempty"`
 }
 
 type Response struct {
